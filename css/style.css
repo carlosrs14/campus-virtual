@@ -1,0 +1,169 @@
+/* general */
+body {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: hwb(0 95% 5%);
+    gap: 0;
+}
+button {
+    background-color: #1070bb;
+    color: #fff;
+    width: 70px;
+    height: 30px;
+    border-radius: 10%;
+    border-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+header li img {
+    height: 70px;
+    border-radius: 50%;
+}
+
+/* header */
+header {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header ul li {
+    margin: 10px;
+}
+header h3 {
+    font-size: 30px;
+    padding:  0;
+    margin: 0;
+}
+header i {
+    font-size: 40px;
+    color: gray;
+}
+header i:hover {
+    color: #1070bb;
+}
+
+/* nav */
+nav {
+    background-color: #004a87;
+    border: 1px solid #004a87;
+
+}
+nav ul {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+    gap: 10px;
+    justify-content: space-around;
+
+}
+nav li {
+    margin: 0;
+    padding: 0;
+}
+nav ul a {
+    font-size: 20px;
+    font-weight: bold;
+    color: aliceblue;
+    font-style: none;
+}
+
+li {
+    list-style: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/* estudiantes */
+.input-buscar {
+    padding-left: 80px;
+}
+.input-buscar input, .input-buscar a {
+    border-radius: 10%;
+    height: 30px;
+    font-size: 20px;
+}
+div h1 {
+    display: flex;
+    justify-content: space-around;
+}
+.estudiantes {
+    display:  grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+.estudiante {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.estudiante img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.estudiante h4 {
+    font-weight: bold;
+}
+.estudiante h5 {
+    font-size: 14px;
+    color: grey;
+}
+.estudiante ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.estudiante i {
+    color: #004a87;
+}
+.div-listo {
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    width: 100px;
+    height: 100px;
+}
+.div-listo button {
+    width: 80px;
+    height: 40px;
+}
+.icon-linkedin i {
+    color: #0077b5;
+}
+.icon-twitter i {
+    color: #1da1f2;
+}
+.icon-facebook i {
+    color: #3b5998;
+    
+}
+
+/* pie de página */
+footer {
+    background-color: #004a87;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
